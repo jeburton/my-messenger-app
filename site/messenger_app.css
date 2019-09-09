@@ -1,0 +1,62 @@
+#chatBox {
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+#chatBox::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#chatBox::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#chatBox::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.liJB {
+    color: rgb(0, 225, 255);            
+    text-align: right;
+    padding: 5px 5px 5px 10px;
+}
+
+.liJB span {
+    background-color:rgb(88, 85, 85);
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+}
+
+.JMli {
+    color: darkblue;
+}
+
+.rudy-message span {
+    background-color:#0084FF;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+ul li:not(.rudy-message){
+    text-align: right;
+}
+
+
+

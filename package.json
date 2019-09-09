@@ -1,0 +1,23 @@
+{
+  "name": "my-messenger-app",
+  "version": "1.0.0",
+  "description": "Practice messenger app code\r Test commit",
+  "main": "messenger_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeburton/my-messenger-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeburton/my-messenger-app/issues"
+  },
+  "homepage": "https://github.com/jeburton/my-messenger-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
