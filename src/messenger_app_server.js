@@ -6,7 +6,7 @@ const path = require("path")
 
 const doSockets = require("./messenger_app_socket")
 
-const port = 3000
+const port = 3001
 
 app.get('/resources/:file', (req, res) => {
    res.sendFile(path.resolve(__dirname + "/../site/" + req.params.file))
